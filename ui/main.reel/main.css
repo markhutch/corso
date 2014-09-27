@@ -30,12 +30,14 @@ body{
     background-color : rgba(0, 80, 0, 0.5);
     float : none;
     clear : both;
+    min-height : 400px;
     height : 50%;
 }
 .preview{
     background-color : rgba(0, 0, 0, 0.5);
     float : none;
     clear : both;
+    min-height : 300px;
     height : 30%;
 }
 .stage{
