@@ -40,11 +40,24 @@ body{
     height : 200px;
     width : 900px;
 }
-.pageLeftMenu{
-    background-color : rgba(0, 80, 0, 0.5);
+.sidebar{
     float : left;
     clear : none;
-    height : 600px;
+    min-width : 80px;
+    min-height : 80px;
+}
+.pageLeftMenu{
+    background-color : rgba(0, 80, 0, 0.5);
+    float : none;
+    clear : both;
+    height : 300px;
+    width : 200px;
+}
+.Preview{
+    background-color : rgba(0, 0, 0, 0.5);
+    float : none;
+    clear : both;
+    height : 300px;
     width : 200px;
 }
 .pageContent{
@@ -61,3 +74,8 @@ body{
     height : 100px;
     width : 900px;
 }
+
+
+
+
+
