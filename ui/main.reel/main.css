@@ -17,7 +17,7 @@ body{
     background-color : rgba(80, 0, 0, 0.5);
     float : left;
     clear : none;
-    height : 75px;
+    height : 12%;
     width: 100%;
 }
 .sidebar{
@@ -30,26 +30,26 @@ body{
     background-color : rgba(0, 80, 0, 0.5);
     float : none;
     clear : both;
-    height : 300px;
+    height : 50%;
 }
 .preview{
     background-color : rgba(0, 0, 0, 0.5);
     float : none;
     clear : both;
-    height : 300px;
+    height : 30%;
 }
 .stage{
     background-color : rgba(0, 0, 80, 0.5);
     float : left;
     clear : none;
-    height : 600px;
+    height : 80%;
     width : 85%;
 }
 .footer{
     background-color : rgba(80, 0, 80, 0.5);
     float : left;
     clear : none;
-    height : 100px;
+    height : 8%;
     width : 100%;
 }
 
