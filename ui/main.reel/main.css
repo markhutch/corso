@@ -60,14 +60,14 @@ body{
     height : 300px;
     width : 200px;
 }
-.pageContent{
+.stage{
     background-color : rgba(0, 0, 80, 0.5);
     float : left;
     clear : none;
     height : 600px;
     width : 700px;
 }
-.pageFooter{
+.footer{
     background-color : rgba(80, 0, 80, 0.5);
     float : left;
     clear : none;
