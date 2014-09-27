@@ -10,6 +10,7 @@ div.Tools {
     border-radius: 5px;
 }
 div.Stage {
+    margin-left: 15%;
     overflow: hidden;
     background-color: yellow;
     border: 2px solid;
