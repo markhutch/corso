@@ -17,8 +17,8 @@ body{
     background-color : rgba(80, 0, 0, 0.5);
     float : left;
     clear : none;
-    height : 200px;
-    width : 900px;
+    height : 75px;
+    width : auto;
 }
 .sidebar{
     float : left;
