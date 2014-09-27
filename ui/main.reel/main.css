@@ -18,3 +18,11 @@ div.Preview {
     border: 2px solid;
     border-radius: 5px;
 }
+#left{
+    float:left;
+    width:65%;
+    overflow:hidden;
+}
+#right{
+    overflow:hidden;
+}

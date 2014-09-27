@@ -19,9 +19,11 @@
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="Main">
         <h1>Main div</h1>
-        <div class="Tools"><h2>Tools div</h2></div>
-        <div class="Preview"><h2>Tools div</h2></div>
-        <div class="Stage"><h2>Tools div</h2></div>
+        <div id="left">    <!-- group Tools and Preview together -->
+            <div class="Tools"><h2>Tools div</h2></div>
+            <div class="Preview"><h2>Tools div</h2></div>
+        </div>
+        <div class="Stage" id="right"><h2>Tools div</h2></div>
     </div>
 </body>
 </html>
