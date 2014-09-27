@@ -6,6 +6,7 @@ div.Main {
 
 div.Tools {
     color: red;
+    height: 80%;
     border: 2px solid;
     border-radius: 5px;
 }
