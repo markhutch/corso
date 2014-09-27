@@ -21,7 +21,7 @@ div.Preview {
     border: 2px solid;
     border-radius: 5px;
 }
-#left{
+div#sidebar{
     float:left;
     width:15%;
     overflow:hidden;
