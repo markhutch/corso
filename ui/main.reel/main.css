@@ -8,3 +8,13 @@ div.Tools {
     border: 2px solid;
     border-radius: 5px;
 }
+div.Stage {
+    background-color: yellow;
+    border: 2px solid;
+    border-radius: 5px;
+}
+div.Preview {
+    background-color: cyan;
+    border: 2px solid;
+    border-radius: 5px;
+}
