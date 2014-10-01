@@ -9,12 +9,31 @@
             "properties": {
                 "element": {"#": "owner"}
             }
+        },
+        "radio": {
+            "prototype": "digit/ui/radio-button.reel",
+            "properties": {
+                "element": {"#": "radio"},
+                "checked": true
+            }
+        },
+        "radio2": {
+            "prototype": "digit/ui/radio-button.reel",
+            "properties": {
+                "element": {"#": "radio2"},
+                "checked": false
+            }
+        },
+        "radioButtonController": {
+            "prototype": "montage/core/radio-button-controller"
         }
     }
     </script>
 </head>
 <body>
     <div data-montage-id="owner" class="Tools">
+        <input type="radio" data-montage-id="radio">
+        <input type="radio" data-montage-id="radio2">
     </div>
 </body>
 </html>
