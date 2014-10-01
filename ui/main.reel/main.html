@@ -2,50 +2,62 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Main</title>
-
+    <title>
+        Main
+    </title>
     <link rel="stylesheet" href="main.css">
-    
-    <title>Corso - Process and Workflow Mapping Tool</title>
-
+    <title>
+        Corso - Process and Workflow Mapping Tool
+    </title>
     <script type="text/montage-serialization">
-        {
-            "owner": {
-                "properties": {
-                    "element": {"#": "main"}
-                }
-            },
-            "tools": {
-                "prototype": "ui/tools.reel",
-                "properties": {
-                    "element": {"#": "tools"}
-                },
-                "bindings": {
-                    "categories": {"<-": "@owner.tools"}
-                }
+    {
+        "owner": {
+            "properties": {
+                "element": {"#": "main"}
+            }
+        },
+        "radioButtonController": {
+            "prototype": "montage/core/radio-button-controller"
+        },
+        "tools": {
+            "prototype": "ui/tools.reel",
+            "bindings": {
+                "categories": {"<-": "@owner.tools"}
             }
         }
+    }
     </script>
 </head>
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="blended_grid">
         <div class="header">
-            <h1>header</h1>
+            <h1>
+                header
+            </h1>
         </div>
         <div class="sidebar">
             <div class="tools">
-                <h2>tools</h2>
+                <h2>
+                    tools
+                </h2>
             </div>
             <div class="preview">
-                <h2>preview</h2>
+                <h2>
+                    preview
+                </h2>
             </div>
         </div>
         <div class="stage">
-            <h2>stage</h2>
+            <h2>
+                stage
+            </h2>
         </div>
         <div class="footer">
-            <h2>footer</h2>
+            <h2>
+                footer
+            </h2>
         </div>
+        <input type="radio" data-montage-id="radio">
     </div>
 </body>
 </html>
